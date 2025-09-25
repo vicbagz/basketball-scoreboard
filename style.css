@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin: 60px auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: #1b244a;
+  max-width: 575px;
+  margin: 70px auto 0 auto;
+  border: 5px solid white;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 20px 20px 40px black;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 -50px 0;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #f94f6d;
+  text-align: center;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 90px;
+  padding: 20px 60px;
+  border-radius: 5px;
+  background-color: #080001;
+  margin: 70px auto 30px auto;
+  width: 60px;
+}
+
+#button-section {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.add-score-btn {
+  background: none;
+  color: #9aabd8;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+#new-game-btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto 0 auto;
+  background: none;
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
