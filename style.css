@@ -1,10 +1,6 @@
 body {
   margin: 0;
-  background: linear-gradient(
-    112.1deg,
-    rgb(32, 38, 57) 11.4%,
-    rgb(63, 76, 119) 70.2%
-  );
+  background: linear-gradient(9deg, rgb(15 0 45) 0%, rgb(92 55 169) 100%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,13 +18,13 @@ h1 {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  background-color: #1b244a;
+  background-color: rgb(42 16 92);
   max-width: 575px;
   margin: 70px auto 0 auto;
   border: 5px solid white;
   border-radius: 10px;
   padding: 50px;
-  box-shadow: 20px 20px 40px black;
+  box-shadow: 20px 20px 40px #170835;
 }
 
 h3 {
@@ -69,6 +65,11 @@ h2 {
   font-family: "Cursed Timer ULiL", sans-serif;
 }
 
+.add-score-btn:hover {
+  background: #3d2179;
+  cursor: pointer;
+}
+
 #new-game-btn {
   display: flex;
   justify-content: space-around;
@@ -80,4 +81,9 @@ h2 {
   border: 2px solid white;
   border-radius: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#new-game-btn:hover {
+  background: rgb(71 36 144) 70.2%;
+  cursor: pointer;
 }
